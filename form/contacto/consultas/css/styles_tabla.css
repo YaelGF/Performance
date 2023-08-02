@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'GillSans';
+	src: url('themes/default/webfonts/gillsans_light.eot');
+	src: url('themes/default/webfonts/gillsans_light.eot?#iefix') format('embedded-opentype'),
+		url('themes/default/webfonts/gillsans_light.woff') format('woff'),
+		url('themes/default/webfonts/gillsans_light.ttf') format('truetype'),
+		url('themes/default/webfonts/gillsans_light.svg') format('svg');
+}
+
+#rounded-corner
+{
+	font-family: GillSans, Sans-Serif;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 15px;
+	width: 1000px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#rounded-corner thead th.rounded-company
+{
+	background: #b9c9fe url('table-images/left.png') left -1px no-repeat;
+	font-size: 14px;
+}
+#rounded-corner thead th.rounded-q4
+{
+	background: #b9c9fe url('table-images/right.png') right -1px no-repeat;
+}
+#rounded-corner th
+{
+	font-family: GillSans, Sans-Serif;
+	padding: 8px;
+	font-weight: normal;
+	font-size: 14px;
+	color: #fff;
+	background: #002060;
+	text-align:center;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #669;
+	font-weight: normal;
+	font-size: 14px;
+}
+#rounded-corner tfoot td.rounded-foot-left
+{
+	background: #e8edff url('table-images/botleft.png') left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right
+{
+	background: #e8edff url('table-images/botright.png') right bottom no-repeat;
+}
+#rounded-corner tbody tr:hover td
+{
+	background: #d0dafd;
+}
