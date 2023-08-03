@@ -339,7 +339,7 @@ input.text {
 	border-style: solid;
 	border-width: 1px;
 	border-color: rgb(169, 169, 169);
-	margin-bottom: 20px;
+	margin-bottom: 20px
 	font-size: 16px;
 	margin-top: 2px;
 	width: 100%;
@@ -370,7 +370,7 @@ textarea {
 	border-style: solid;
 	border-width: 1px;
 	border-color: rgb(169, 169, 169);
-	margin-bottom: 20px;
+	margin-bottom: 20px
 	font-size: 16px;
 	margin-top: 2px;
 	width: 99%;	
