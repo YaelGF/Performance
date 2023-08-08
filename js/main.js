@@ -267,3 +267,11 @@ var wow = new WOW ({
 });
 wow.init();
 
+ // =========== DATE ================ //
+
+const date = new Date();
+const formatedDate = 'Copyright &copy; ' + date.getFullYear() + ' <a href="http://www.iuca.info">Instituto Universitario de Ciencias Ambientales S.C.</a>';
+
+document.getElementById("date").innerHTML = formatedDate;
+
+// ========== END DATE ========== //

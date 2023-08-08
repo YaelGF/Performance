@@ -156,9 +156,11 @@
 
 .bg-img-1 {
 	background-image: url(../img/slider/banner-iuca-1.jpg);
+	filter: brightness(60%);
 }
 .bg-img-2 {
 	background-image: url(../img/slider/banner-plataforma-covid.jpg);
+	filter: brightness(95%);
 }
 .bg-img-3 {
 	background-image: url(../img/slider/banner-cartografia.jpg);
@@ -190,7 +192,7 @@
 	-ms-animation: fadeOut 1s ease-in-out both;
 	animation: fadeOut 1s ease-in-out both;
 }
-.sl-trans-back-elems .caption-content span,,
+.sl-trans-back-elems .caption-content span,
 .sl-trans-back-elems .caption-content a {
 	-webkit-animation: fadeOut 1s linear both;
 	-moz-animation: fadeOut 1s linear both;

@@ -224,6 +224,7 @@ main > section {
   position: absolute;
   top: 50%;
   width: 128px;
+  padding: 50px;
 }
 
 .battery{
@@ -282,11 +283,11 @@ main > section {
 
     background-color: rgba(0,154,208,.9);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    padding: 5px 0;
+    padding: 20px 0;
 }
 
 #navigation.animated-header {
-    padding: 10px 0;
+    padding: 25px 0;
 }
 
 h1.navbar-brand {
@@ -303,6 +304,11 @@ h1.navbar-brand {
     text-align: center;
 }
 
+.logo {
+    position: fixed;
+    left: 0;
+    margin: 0 25px;
+}
 
 /*=================================================================
 	Home Slider
@@ -344,7 +350,7 @@ h1.navbar-brand {
 }
 
 .slide-caption {
-    color: #050605;
+    color: #fefefe;
     display: table;
     height: 100%;
     left: 0;
@@ -637,7 +643,7 @@ h1.navbar-brand {
 
 figcaption.mask {
     background-color: rgba(54, 55, 50, 0.79);
-    bottom: -126px;
+    bottom: -auto;
     color: #fff;
     padding: 25px;
     position: absolute;
@@ -842,6 +848,7 @@ ul.external li a:hover {
 
 .price-table .value span {
     display: inline-block;
+    padding: 5px;
 }
 
 .price-table .value span:first-child {
